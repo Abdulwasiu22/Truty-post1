@@ -1,0 +1,131 @@
+/*Global*/
+body{
+  background:  #f1f1f1;
+  color: dark-grey;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 5px;
+
+}
+
+.container {
+  width: 100%;
+  overflow: auto;
+  border: 1px;
+  box-sizing: border-box;
+}
+
+/*Main*/
+h1{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+h2{
+  color: blue;
+  font-size: 14px;
+}
+h3{
+  font-size: 18px;
+}
+
+h6{
+  color: lightcoral;
+
+}
+
+#mypic {
+  float: left;
+  width: 33%;
+}
+
+#myname {
+  float: left;
+  width: 33%;
+  
+}
+
+
+#biodata {
+  float: right;
+  width: 33%;
+}
+
+
+
+
+#education {
+  float: left:
+  width: 50%;
+}
+
+#block1 {
+  float: left;
+  width: 50%;
+  border: 1px, solid #ccc;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#block2 {
+  float: left;
+  width: 33.3%;
+  border: 1px, solid #ccc;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#block3 {
+  float: left;
+  width: 50%;
+  border: 1px, solid #ccc;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+#block4 {
+  float: left;
+  width: 50%;
+  border: 1px, solid #ccc;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+/*Form*/
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"] .my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+.my-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+@media(max-width: 600px) {
+  width: 100%;
+  float: none;
+}
+
+footer {
+  background-color: burlywood;
+  color: white;
+  text-align: center;
+}
+
+
+
